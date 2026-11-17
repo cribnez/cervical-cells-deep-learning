@@ -1,0 +1,15 @@
+name: cervical-cad
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.10,<3.12
+  - pip
+  - numpy>=1.23.0
+  - pillow>=9.5.0
+  - scikit-learn>=1.2.0
+  - matplotlib>=3.6.0
+  - seaborn>=0.12.0
+  - pip:
+      - tensorflow>=2.10.0
+      - opencv-python>=4.8.0

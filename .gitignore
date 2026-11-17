@@ -1,0 +1,74 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Training outputs, checkpoints and logs
+runs/
+results/
+Resultados_Entrenamiento/
+logs/
+*.log
+
+# Large datasets (users should keep datasets in data/ or external path)
+data/train/
+data/val/
+data/test/
+data/raw/
+data/processed/
+*.zip
+*.tar.gz
+*.rar
+
+# Model weights (large binary files)
+*.h5
+*.keras
+*.weights.h5
+*.pkl
+!models/.gitkeep
